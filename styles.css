@@ -28,12 +28,11 @@ ul {
   display: flex;
   justify-content: center;
   padding-top: 96px;
-  padding-bottom: 128px;
+  padding-bottom: 92px;
   gap: 24px;
 }
 
 .container {
-  
   width: 400px;
 }
 
@@ -50,15 +49,18 @@ h1 {
 }
 
 p{
-  color: #e4e4e4;
+  color: #adadad;
   margin: 0;
   padding-bottom: 16px;
 }
 
 button {
-  background-color: rgb(69, 156, 255);
+  background-color: rgb(40, 127, 226);
   font-weight: 700;
   color: white;
+  height: 32px;
+  width: 100px;
+  border-radius: 8px;
 }
 
 .image {
@@ -67,6 +69,35 @@ button {
   width: 400px;
   justify-content: center;
   align-items: center;
-  border: 2px solid rgb(116, 116, 116);
-  background-color: #747474;
+  border: 2px solid rgb(156, 173, 189);
+  background-color: #93a6b3;
+  color: #ffffff;
+}
+
+.content-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.item {
+  width: 130px;
+}
+
+.item p{
+  text-align: center;
+  margin-top: 12px;
+}
+
+.box {
+  width: 130px;
+  height: 130px;
+  border: 4px solid #5e91ff;
+  border-radius: 10%;
 }
